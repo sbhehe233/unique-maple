@@ -6,7 +6,7 @@ export default class Contact extends React.Component {
         return (
             <section>
                 <h2>{_.get(this.props, 'pageContext.site.data.contact.title')}</h2>
-                <form name="contactForm" method="post" action="pageContext.site.data.contact.postUrl" netlifyHoneypot="bot-field" data-netlify="true">
+                <form name="contactForm" method="post" action="pageContext.site.data.contact.posturl" netlifyHoneypot="bot-field" data-netlify="true">
                     <div className="screen-reader-text">
                         <label>Don't fill this out if you're human: <input name="bot-field" /></label>
                     </div>
