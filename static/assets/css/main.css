@@ -2089,3 +2089,15 @@ body.is-menu-visible #menu {
     @media screen and (max-width: 736px) {
         #wrapper > * > .inner {
             padding: 0 1.25em; } }
+
+.oddsEndsPicHolder {
+  display:flex;
+  justify-content: center;
+}
+
+.oddsEndsPicHolder img{
+  margin: 10px;
+    flex-grow: 1;
+    width: 25%;
+    border: 1px solid;
+}
